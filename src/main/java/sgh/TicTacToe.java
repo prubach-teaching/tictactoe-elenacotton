@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class tictactoe {
+public class TicTacToe {
     public enum Result { NOT_FINISHED, NO_WINNER, X_WON, O_WON }
     public static int [][] GetBoard(String boardName) throws FileNotFoundException {
         int[][] board = new int[3][3];
